@@ -33,6 +33,11 @@ App({
       }
     })
   },
+  config:{
+    url: "https://xcy.signature.nineton.cn/api/apiaccess",
+    version: "1.0.0",
+    channel: "test"
+  },
   globalData: {
     userInfo: null
   }

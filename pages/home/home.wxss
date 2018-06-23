@@ -1,0 +1,83 @@
+/* pages/home/home.wxss */
+.header {
+  height: 238.3rpx;/*设计稿 375x119.15, 1px=2rpx*/
+}
+
+.header image {
+  width: 100%;
+  display: block;
+  height: 238.3rpx;
+}
+
+.box {
+  width: 100%;
+  background:rgba(249,249,249,1);
+}
+
+.box_item {
+  width: 100%;
+  height: 360rpx;
+  background:rgba(249,249,249,1);
+  margin-top: 20rpx;
+}
+
+.box_item .item_half{
+  width: 49%;
+  position: relative;
+  background:rgba(255,255,255,1);
+}
+
+.box_item .item_half image{
+  width: 100%;
+  height: 240.98rpx;/*366x240 => 183.75x120.49 , 120.49 x 2 =  204.98rpx*/
+  margin-bottom: 10rpx;
+  
+}
+
+.box_item .item_half .title {
+  display: block;
+  float: left;
+  font-weight: bold;
+  font-size: 30.78rpx; /*设计稿 width：378px， font-size: 14px, 当前字体大小 : 14/378*375*2 = 27.78 */
+  color:rgba(74,76,91,1);
+  line-height: 30.78rpx;
+  margin-left: 20rpx;
+}
+
+.box_item .item_half .activity {
+  float: right;
+  border: 1px solid #FC9153;
+  font-size: 25rpx;
+  color: #FC9153;
+  padding: 3rpx;
+  margin-right: 20rpx;
+}
+
+.box_item .item_half .price_info {
+  position: absolute;
+  top: 300rpx;
+  width: 100%;
+  background:rgba(255,255,255,1);
+}
+
+.box_item .item_half .price_info .price {
+  color: #FC9153;
+  font-size: 35rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+}
+
+.box_item .item_half .price_info .m_price {
+  color: #9A9DB3;
+  font-size: 30rpx;
+  text-decoration: line-through;
+}
+
+.box_item .item_half .price_info .buy {
+  position: absolute;
+  top: 18rpx;
+  right: 20rpx;
+  font-size: 25rpx;
+  line-height: 25rpx;
+  color: #9A9DB3;
+}

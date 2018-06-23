@@ -1,0 +1,27 @@
+<view class="header">
+  <image src='http://w.signature.nineton.cn/static/H5/img/banner.png'></image>
+</view>
+<view class="box">
+  <view class="box_item">
+    <view class='item_half float_left'>
+      <image src='http://nineton.oss-cn-hangzhou.aliyuncs.com/signature/img/homepage3/%E5%95%86%E5%8A%A1%E7%AD%BE2x.png'></image>
+      <view class="title">商务签</view>
+      <view class="activity">限时优惠</view>
+      <view class='price_info'>
+        <text class='price'>¥16.99</text>
+        <text class='m_price'>¥20.99</text>
+        <text class='buy'>22付款</text>
+      </view>
+    </view>
+    <view class='item_half float_right'>
+      <image src='http://nineton.oss-cn-hangzhou.aliyuncs.com/signature/img/homepage3/private-design2x.png'></image>
+      <view class="title">商务签</view>
+      <view class="activity">限时优惠</view>
+      <view class='price_info'>
+        <text class='price'>¥16.99</text>
+        <text class='m_price'>¥20.99</text>
+        <text class='buy'>202付款</text>
+      </view>
+    </view>  
+  </view>
+</view>
